@@ -965,6 +965,6 @@ The three-layer architecture ensures clean separation of concerns while enabling
 ---
 
 **Created:** September 2026  
-**Author:** Pavan (Apollo247 Team)  
+**Author:** Pavan sai lahar yakkali  
 **Database:** SQL Server 2016+  
 **Version:** 1.0
