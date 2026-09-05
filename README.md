@@ -389,10 +389,6 @@ sql-data-warehouse-project-main/
 
 ## Data Flow
 
-### ETL Process Workflow
-
-![ETL Workflow Diagram](docs/etl-workflow.png)
-
 ### ETL Pipeline Overview:
 
 ```
