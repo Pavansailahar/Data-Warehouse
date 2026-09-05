@@ -37,6 +37,7 @@ The data warehouse follows the **Medallion Architecture** pattern with three dis
 ### Layer Architecture Overview
 
 ![Data Architecture](<docs/Data Archeticture1.jpeg>)
+![](<docs/Data Archeticture2.jpeg>)
 
 The architecture consists of:
 
