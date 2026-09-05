@@ -486,7 +486,7 @@ CRM System                  ERP System
 
 The following image shows the complete database structure as viewed in SQL Server Object Explorer:
 
-![Database Explorer View](<Database structure.jpeg>)
+![Database Explorer View](<docs/Database structure.jpeg>)
 
 ### Schemas
 ```sql
