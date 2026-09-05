@@ -94,17 +94,17 @@ The architecture consists of:
 
 ```
 sql-data-warehouse-project-main/
-├── datasets/                           # Source Data Files
-│   ├── source_crm/                     # CRM System Data
+├── datasets/                          # Source Data Files
+│   ├── source_crm/                    # CRM System Data
 │   │   ├── cust_info.csv              # Customer Information
 │   │   ├── prd_info.csv               # Product Information
 │   │   └── sales_details.csv          # Sales Transactions
-│   └── source_erp/                     # ERP System Data
+│   └── source_erp/                    # ERP System Data
 │       ├── CUST_AZ12.csv              # Customer Demographics (Birthdate, Gender)
 │       ├── LOC_A101.csv               # Customer Location (Country)
 │       └── PX_CAT_G1V2.csv            # Product Categories & Maintenance Info
 │
-├── scripts/                            # SQL Scripts
+├── scripts/                           # SQL Scripts
 │   ├── init_database.sql              # Database & Schema Initialization
 │   ├── bronze/
 │   │   ├── ddl_bronze.sql             # Bronze Layer Table Definitions
@@ -115,19 +115,14 @@ sql-data-warehouse-project-main/
 │   └── gold/
 │       └── ddl_gold.sql               # Gold Layer View Definitions
 │
-├── tests/                              # Data Quality Tests
+├── tests/                             # Data Quality Tests
 │   ├── quality_checks_silver.sql      # Silver Layer Data Quality Tests
 │   └── quality_checks_gold.sql        # Gold Layer Data Quality Tests
 │
-├── docs/                               # Documentation & Diagrams
-│   ├── data_architecture.png          # Overall Architecture Diagram
-│   ├── data_flow.png                  # Data Flow Visualization
-│   ├── data_integration.png           # Data Integration Design
-│   ├── data_model.png                 # Star Schema Model
+├── docs/                              # Documentation & Diagrams
+│   ├── data_architecture1.jpeg        # Overall Architecture Diagram
+│   ├── data_architecture1.jpeg        # Data Flow Visualization
 │   ├── data_layers.pdf                # Layer-wise Documentation
-│   ├── ETL.png                        # ETL Process Workflow
-│   ├── data_catalog.md                # Data Dictionary
-│   ├── naming_conventions.md          # Naming Standards
 │   └── Project_Notes_Sketches.pdf     # Project Design Notes
 │
 └── README.md                           # This File
